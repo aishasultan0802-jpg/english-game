@@ -681,7 +681,7 @@ const fillData = {
 };
 
 let timer;
-let timeLeft = 7;
+let timeLeft = 10;
 let currentQuestions = [];
 let currentQIdx = 0;
 let currentCorrect = 0;
@@ -963,7 +963,7 @@ function renderTestStep() {
         return; 
     }
     
-    timeLeft = 7;
+    timeLeft = 10;
     let [en, az] = currentQuestions[currentQIdx].split(':');
     currentQuestionPrompt = en;
     
